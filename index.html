@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Style/style.css">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900$display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+    
+    <title>Day #1 -  Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box" >
+            <i class="fa fa-map-marker"></i>
+            <input type="text" placeholder="Enter your location"/>
+            <button class="fa fa-search"></button>
+        </div>
+
+        <div class="not-found">
+            <img class="searchLocationImg" src="./images/search-location.png">
+            <p>Oops! Invalid location </p>
+            <!-- <span>p</span> -->
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i style='font-size:36px' class="fa fa-thermometer-3"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i style='font-size:36px' class="fa fa-snowflake-o"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JsFolder/index.js"></script>
+    <!-- <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script> -->
+
+</body>
+</html>
